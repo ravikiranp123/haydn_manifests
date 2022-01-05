@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="twelve"
+          review="gerrit.pixelexperience.org" />
+
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/PixelExperience"
+          revision="twelve" />
+
+  <remote name="pixel-gitlab-self-hosted"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="twelve" />
+
+  <remote name="pixel-devices"
+          fetch="https://github.com/PixelExperience-Devices"
+          revision="twelve" />
+
+  <remote name="pixel-devices-blobs"
+          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+          revision="twelve" />
+
+  <!--<project name="device_xiaomi_haydn" path="device/xiaomi/haydn" remote="pixel-devices" revision="twelve" />-->
+  <project name="ravikiranp123/device_xiaomi_haydn" path="device/xiaomi/haydn" remote="github" revision="arrow-12.0" />
+  <project name="vendor_xiaomi_haydn" path="vendor/xiaomi/haydn" remote="pixel-devices-blobs" revision="twelve" />
+  <project name="vendor_xiaomi_sdm845-common-extra" path="vendor/xiaomi/sdm845-common-extra" remote="pixel-devices-blobs" revision="twelve" />
+  <project name="kernel_xiaomi_haydn" path="kernel/xiaomi/haydn" remote="pixel-devices" revision="twelve" />
+  <!--<remove-project name="hardware_xiaomi" />-->
+  <project name="PixelExperience/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="twelve" />
+  <!--<project name="PixelExperience/device_qcom_sepolicy" path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy" remote="github" revision="twelve-LA.UM.10.3.r1-xxxxx-sdm845.0" />
+  <project name="PixelExperience/device_qcom_sepolicy_vndr" path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy_vndr" remote="github" revision="twelve-LA.UM.10.3.r1-xxxxx-sdm845.0" />-->
+  <remove-project name="android_hardware_qcom_display" />
+  <project name="ravikiranp123/android_hardware_qcom_display" path="hardware/qcom-caf/sm8350/display" remote="github" revision="arrow-12.0-caf-sm8350" />
+</manifest>
