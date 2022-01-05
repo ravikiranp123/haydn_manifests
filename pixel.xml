@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="device_xiaomi_haydn" path="device/xiaomi/haydn" remote="pixel-devices" revision="twelve" />
+  <project name="vendor_xiaomi_haydn" path="vendor/xiaomi/haydn" remote="pixel-devices-blobs" revision="twelve" />
+  <project name="vendor_xiaomi_sdm845-common-extra" path="vendor/xiaomi/sdm845-common-extra" remote="pixel-devices-blobs" revision="twelve" />
+  <project name="kernel_xiaomi_haydn" path="kernel/xiaomi/haydn" remote="pixel-devices" revision="twelve" />
+  <remove-project name="hardware_xiaomi" />
+  <project name="PixelExperience/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="twelve" />
+</manifest>
